@@ -1,0 +1,18 @@
+{
+  "name": "stack-remap",
+  "version": "0.1.0",
+  "description": "Remap the stacktrace on Errors to point to the src files of your choosing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seebigs/stack-remap.git"
+  },
+  "author": "Chris Bigelow <seebigswork@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seebigs/stack-remap/issues"
+  }
+}

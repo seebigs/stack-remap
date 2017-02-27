@@ -1,16 +1,4 @@
-# stack-remap
-
-**Remap the stacktrace on Errors to point to the src files of your choosing**
-
-## Install
-```
-$ npm install stack-remap
-```
-
-## Use
-
-```js
-var stackRemap = require('stack-remap');
+var stackRemap = require('./index.js');
 
 // override prepareStackTrace
 stackRemap.install();
@@ -42,4 +30,3 @@ stackRemap.uninstall();
 
 // everything is back to normal
 console.log(new Error('foo'));
-```
